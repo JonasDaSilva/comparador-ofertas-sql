@@ -54,7 +54,7 @@ Consulta D (economia ao escolher a loja certa). Como os dados são fictícios, o
 |---|---|---|---|
 | Notebook 15 polegadas | 2899.00 | 3199.00 | 300.00 |
 
-![Resultado da consulta de economia por loja](<img width="503" height="316" alt="resultado-economia png" src="https://github.com/user-attachments/assets/f3f2f018-a846-417b-ba0c-e8eb79f2942d" />
+!(<img width="503" height="316" alt="resultado-economia png" src="https://github.com/user-attachments/assets/f3f2f018-a846-417b-ba0c-e8eb79f2942d" />
 )
 
 ## Próximos passos
