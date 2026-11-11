@@ -72,16 +72,6 @@ FROM precos pr
 JOIN produtos p ON p.id = pr.produto_id
 JOIN lojas l ON l.id = pr.loja_id;
 
--- Apenas a melhor oferta (menor preco) de cada produto
-CREATE VIEW vw_melhores_ofertas AS
-SELECT *
-FROM vw_ofertas o 
-WHERE o.preco_black_friday = (
-  SELECT MIN(o2.preco_black_friday)
-  FROM vw_ofertas o2
-  WHERE o2.produto = o.produto
-);
-
 -- Consulta A: todas as ofertas, da maior para a menor com o percentual de desconto
 SELECT produto, loja, preco_original, preco_black_friday, desconto_pct
 FROM vw_ofertas
