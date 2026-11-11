@@ -1,3 +1,4 @@
+.sql linguist-language=SQL
 -- ==============================================
 -- Comparador de Ofertas (SQL)
 -- Ajudar a achar o melhor preço e desconto real
